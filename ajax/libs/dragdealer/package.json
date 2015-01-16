@@ -1,0 +1,31 @@
+{
+  "name": "Dragdealer.js",
+  "filename": "dragdealer.js",
+  "version": "0.9.8",
+  "description": "Drag-based JavaScript component, embracing endless UI solutions.",
+  "homepage": "http://skidding.github.io/dragdealer/",
+  "keywords": [
+    "drag"
+  ],
+  "maintainers": [
+    {
+      "name": "Skidding",
+      "web": "http://ovidiu.ch"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/skidding/dragdealer.git"
+    }
+  ],
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/skidding/dragdealer.git",
+    "basePath": "src",
+    "files": [
+      "*"
+    ]
+  },
+  "namespace": "THREE"
+}
